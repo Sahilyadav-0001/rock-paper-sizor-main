@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors | Web3</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rajdhani:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">ROCK PAPER SCISSORS</h1>
+
+    <div class="score-container">
+        <div class="score-box">
+            <div class="score-label">player</div>
+            <div class="score-value" id="player-score">0</div>
+        </div>
+        <div class="score-box">
+            <div class="score-label">computer</div>
+            <div class="score-value" id="computer-score">0</div>
+        </div>
+        <div class="score-box">
+            <div class="score-label">tie</div>
+            <div class="score-value" id="tie-score">0</div>
+        </div>
+    </div>
+
+    <div class="result-container">
+        <div id="result-text">Choose your move</div>
+    </div>
+
+    <div class="choices-container">
+        <button class="choice" onclick="play('rock')">✊</button>
+        <button class="choice" onclick="play('paper')">✋</button>
+        <button class="choice" onclick="play('scissors')">✌️</button>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
