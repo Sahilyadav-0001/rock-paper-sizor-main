@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rock Paper Scissors Game
 
 A modern Rock Paper Scissors game with a sleek UI built using Python and Pygame.
@@ -23,3 +24,7 @@ A modern Rock Paper Scissors game with a sleek UI built using Python and Pygame.
 - Press ESC to quit the game
 
 created by @prashant6743
+=======
+# rock-paper-sizor-main
+A modern Rock Paper Scissors game with a sleek UI built using Python and Pygame.
+>>>>>>> 8483a049d55722b048fd2765a949a6ea601a368c
